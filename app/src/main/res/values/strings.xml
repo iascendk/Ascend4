@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">What if?</string>
+    <string name="tv1">ASCEND</string>
+    <string name="game_name">What if?</string>
+    <string name="instr">INSTRUCTION</string>
+    <string name="play">PLAY</string>
+    <string name="stat">STATISTICS</string>
+    <string name="INSTRUCTION">INSTRUCTION</string>
+    <string name="ins1"><i> <b> “What if ... None of the innovations we enjoy today could have happened
+        without individuals who were willing to go beyond the available knowledge to explore the
+        What If inside of their own mind.” </b> </i>               - - Lisa Abeyta\n\n
+    </string>
+    <string name="ins2"> <b> Asking a question that begins with \"What if\" helps us discover what happens
+        when we try something new. These “what ifs” encourage
+        innovators to take risks, make mistakes, discover, invent or create, ignite imagination and
+        inspire challenge the status quo. They aren’t always the solution, but they’re starting points.\n\n
+         Constructive questions empower and create new possibilities.
+        They lead to action. \n\n </b></string>
+    <string name="ins3"> Guide:\n\n </string>
+      <string name="ins4"><b>
+        1.	Create as many possible answers as possible.\n  You have 30 seconds.\n
+        2.	Press button “+” when get new answer.\n
+        3.	Be honest.\n</b>
+
+    </string>
+</resources>
