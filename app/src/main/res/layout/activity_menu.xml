@@ -22,7 +22,9 @@
         android:background="@drawable/buttonshape3"
         android:clickable="true"
         android:layout_weight="2"
-        />
+        android:textAlignment="textStart"
+        android:paddingStart="40sp"
+        android:drawableRight="@drawable/next" />
 
     <Button
         android:layout_width="fill_parent"
@@ -34,7 +36,9 @@
         android:background="@drawable/buttonshape2"
         android:clickable="true"
         android:layout_weight="2"
-         />
+        android:textAlignment="textStart"
+        android:paddingStart="40sp"
+        android:drawableRight="@drawable/next"/>
 
     <Button
             android:layout_width="fill_parent"
@@ -46,6 +50,8 @@
             android:background="@drawable/buttonshape1"
         android:clickable="true"
         android:layout_weight="2"
-         />
+        android:paddingStart="40sp"
+        android:textAlignment="textStart"
+        android:drawableRight="@drawable/next"/>
 
 </TableLayout>

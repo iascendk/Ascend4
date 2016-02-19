@@ -20,7 +20,7 @@
         android:textSize="85sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        style="@style/Base.DialogWindowTitleBackground.AppCompat"
+
         android:textColor="@android:color/white"
 
         android:singleLine="false" />

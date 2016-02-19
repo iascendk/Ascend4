@@ -3,7 +3,7 @@
     <string name="tv1">ASCEND</string>
     <string name="game_name">What if?</string>
     <string name="instr">INSTRUCTION</string>
-    <string name="play">PLAY</string>
+    <string name="play">   PLAY</string>
     <string name="stat">STATISTICS</string>
     <string name="INSTRUCTION">INSTRUCTION</string>
     <string name="ins1"><i> <b> “What if ... None of the innovations we enjoy today could have happened
@@ -16,11 +16,18 @@
         inspire challenge the status quo. They aren’t always the solution, but they’re starting points.\n\n
          Constructive questions empower and create new possibilities.
         They lead to action. \n\n </b></string>
-    <string name="ins3"> Guide:\n\n </string>
+    <string name="ins3"> GUIDE:\n\n </string>
       <string name="ins4"><b>
         1.	Create as many possible answers as possible.\n  You have 30 seconds.\n
         2.	Press button “+” when get new answer.\n
         3.	Be honest.\n</b>
 
     </string>
+    <string name="vk_app_id">5290729</string>
+
+    <string name="ok_app_id">1096125440</string>
+    <string name="ok_public_key">CBANIGFCEBABABABA</string>
+    <string name="ok_secret_key">FF5161844C04525B64FA41A7</string>
+    <string name="vk_button">Войти как %1$s</string>
+    <string name="kg">KEEP GOING!</string>
 </resources>

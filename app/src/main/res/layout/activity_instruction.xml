@@ -37,7 +37,7 @@
         android:text="@string/ins1"
         android:id="@+id/tv2"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="11dp"
         android:layout_weight="0.14"
         android:paddingTop="4dp"
         android:textStyle="bold"/>
@@ -76,6 +76,7 @@
         android:textSize="16sp"
         android:gravity="top|bottom"
         android:paddingTop="4dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
 
 </LinearLayout>
