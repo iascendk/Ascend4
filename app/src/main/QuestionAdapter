@@ -1,0 +1,50 @@
+package com.ascendcorparation.ascend4;
+
+import android.content.Context;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import java.util.HashMap;
+
+public class QuestionAdapter extends RecyclerView.Adapter<QuestionAdapter.ViewHolder> {
+    protected Context context;
+    protected long count;
+    protected HashMap<Integer, Question> questionMap;
+
+    public QuestionAdapter(Context context, HashMap<Integer, Question> questionMap, long count) {
+        this.context = context;
+        this.count = count;
+        this.questionMap = questionMap;
+    }
+
+    @Override
+    public QuestionAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new ViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_item, parent, false));
+
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        Question q1 = Question.findById(Question.class, position + 1);
+        holder.ques.setText(q1.getQues());
+        holder.id.setText(String.valueOf(q1.getID()));
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
+        protected TextView ques, id;
+
+        public ViewHolder(View v) {
+            super(v);
+            ques = (TextView) v.findViewById(R.id.que);
+            id = (TextView) v.findViewById(R.id.que);
+        }
+    }
+
+    @Override
+    public int getItemCount() {
+        return (int) count;
+    }
+
+}
