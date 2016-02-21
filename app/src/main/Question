@@ -1,0 +1,21 @@
+package com.ascendcorparation.ascend4;
+
+import com.orm.SugarRecord;
+
+public class Question extends SugarRecord{
+    private String ques;
+    private int id;
+    public Question() {
+    }
+    public String getQues() {
+        return ques;
+    }
+    public int getID() {
+        return id;
+    }
+
+    public Question(String ques, int id) {
+        this.ques = ques;
+        this.id = id;
+    }
+}
